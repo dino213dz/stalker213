@@ -13,3 +13,15 @@
 
 - Exemples:
    - aspireLiens.sh http://wwww.google.fr/q=dino213dz
+
+
+# stalker213.sh
+
+- Description: 
+   - Script qui récupere uniquement les liens dans les résultats de rechrches google et les stock dans un fichier.
+
+- Utilsiation:
+   - stalker213.sh terme_à_chercher
+
+- Exemples:
+   - stalker213.sh dino213dz
