@@ -14,6 +14,7 @@
 url=$1
 if [ "$url" = "" ];then
 	url="https://ankiweb.net/shared/info/575656891"
+	echo -e "Aucune url en parammetre!\nUrl exemple: $url"
 fi
 resultats_html=`lynx -nonumbers -dump $url|grep "http.*://"`
 
